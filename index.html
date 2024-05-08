@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <table>
+        <tr >
+            <td   colspan="4"> <input  id="result" type="text" placeholder="0" ></td> 
+        </tr>
+       
+        <tr>
+            <td><button value ="7" onclick="displaySeven()">7</button></td>
+            <td><button value ="8"  onclick="displayEight()">8</button></td>
+            <td><button value ="9" onclick="displayNine()">9</button></td>
+            <td><button value="/" onclick="displaydivide()">&divide</button></td>	
+        </tr>
+        <tr>
+            <td><button value="4" onclick="displayFour()">4</button></td>
+            <td><button  value="5" onclick="displayFive()">5</button></td>
+            <td><button value="6"  onclick="displaySix()">6</button></td>
+            <td><button  value="x" onclick="displayMultiply()">x</button></td>	
+        </tr>
+        <tr>
+            <td><button  value="1" onclick="displayOne()">1</button></td>
+            <td><button  value="2" onclick="displayTwo()">2</button></td>
+            <td><button value="3" onclick="displayThree()">3</button></td>
+            <td><button  value="-" onclick="displayMinus()">-</button></td>	
+        </tr>
+        <tr>
+            <td><button value="0" onclick="displayZero()">0</button></td>
+            <td><button value="." onclick="displayDot()">.</button></td>
+            <td><button value="+" onclick="displayPlus()">+</button></td>
+            <td rowspan="2"><button value="=" class="equal" onclick="displayequal()">=</button></td>	
+        </tr>
+        <tr>
+            <td><button  onclick="clearAll()">C</button></td>
+            <td colspan="2"><button  class="delete" onclick="displayDelete()">Del</button></td>
+            
+        </tr>
+        <tr>
+        <td id="link" colspan="4">
+
+        <a href="">Github Link</a></td>
+        </tr>
+    </table>
+    
+    <script src="./javascript/script.js">
+       
+    </script>
+</body>
+</html>
