@@ -57,6 +57,7 @@ button:hover{
     background-color:#646262 ;
     background-image:linear-gradient(#aca8a8,#757474,rgb(128, 118, 118) );
     text-decoration: none;
+   font-weight:bold;
 }
 a:hover{
     background-image:linear-gradient(#aca8a8,#646262) ;
